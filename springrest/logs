@@ -1,0 +1,380 @@
+2021-07-16 12:41:50.731  INFO 7315 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 7315 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 12:41:50.743  INFO 7315 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 12:41:53.235  INFO 7315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 12:41:53.375  INFO 7315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+2021-07-16 12:41:53.769  INFO 7315 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 12:41:54.757  INFO 7315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 12:41:54.777  INFO 7315 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 12:41:54.778  INFO 7315 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 12:41:55.040  INFO 7315 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 12:41:55.041  INFO 7315 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4131 ms
+2021-07-16 12:41:55.498  INFO 7315 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 12:41:55.591  INFO 7315 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 12:41:55.822  INFO 7315 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 12:41:56.010  INFO 7315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 12:41:56.852  INFO 7315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 12:41:56.877  INFO 7315 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 12:41:58.374  INFO 7315 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 12:41:58.394  INFO 7315 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 12:41:59.154  WARN 7315 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-16 12:41:59.657  INFO 7315 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 12:42:00.806  INFO 7315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2021-07-16 12:42:01.041  INFO 7315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2223 (http)
+2021-07-16 12:42:01.044  INFO 7315 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 12:42:01.046  INFO 7315 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 12:42:01.089  INFO 7315 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-16 12:42:01.090  INFO 7315 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2021-07-16 12:42:01.122  INFO 7315 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-07-16 12:42:01.225  INFO 7315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2223 (http) with context path ''
+2021-07-16 12:42:01.371  INFO 7315 --- [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 11.755 seconds (JVM running for 12.942)
+2021-07-16 12:42:58.593  INFO 7315 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 12:42:58.593  INFO 7315 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 12:42:58.596  INFO 7315 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-07-16 12:46:30.920  INFO 7315 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-16 12:46:30.925  INFO 7315 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 12:46:30.928  INFO 7315 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 12:46:30.940  INFO 7315 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 12:46:36.380  INFO 7550 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 7550 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 12:46:36.386  INFO 7550 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 12:46:38.527  INFO 7550 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 12:46:38.644  INFO 7550 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 3 JPA repository interfaces.
+2021-07-16 12:46:39.020  INFO 7550 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 12:46:39.910  INFO 7550 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 12:46:39.936  INFO 7550 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 12:46:39.937  INFO 7550 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 12:46:40.178  INFO 7550 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 12:46:40.179  INFO 7550 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3659 ms
+2021-07-16 12:46:40.702  INFO 7550 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 12:46:40.781  INFO 7550 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 12:46:40.995  INFO 7550 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 12:46:41.176  INFO 7550 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 12:46:41.939  INFO 7550 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 12:46:41.963  INFO 7550 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 12:46:43.306  INFO 7550 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 12:46:43.319  INFO 7550 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 12:46:44.016  WARN 7550 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-16 12:46:44.480  INFO 7550 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 12:46:45.470  INFO 7550 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2021-07-16 12:46:45.708  INFO 7550 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2223 (http)
+2021-07-16 12:46:45.710  INFO 7550 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 12:46:45.711  INFO 7550 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 12:46:45.753  INFO 7550 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-16 12:46:45.754  INFO 7550 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2021-07-16 12:46:45.787  INFO 7550 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-07-16 12:46:45.886  INFO 7550 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2223 (http) with context path ''
+2021-07-16 12:46:46.030  INFO 7550 --- [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 10.723 seconds (JVM running for 11.85)
+2021-07-16 12:47:03.055  INFO 7550 --- [http-nio-4444-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 12:47:03.055  INFO 7550 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 12:47:03.059  INFO 7550 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-07-16 13:00:27.163  INFO 7550 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-16 13:00:27.168  INFO 7550 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 13:00:27.170  INFO 7550 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 13:00:27.176  INFO 7550 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 13:00:33.523  INFO 8212 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 8212 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 13:00:33.526  INFO 8212 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 13:00:35.152  INFO 8212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 13:00:35.239  INFO 8212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2021-07-16 13:00:35.543  INFO 8212 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 13:00:36.171  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 13:00:36.196  INFO 8212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 13:00:36.196  INFO 8212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 13:00:36.321  INFO 8212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 13:00:36.321  INFO 8212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2689 ms
+2021-07-16 13:00:36.738  INFO 8212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 13:00:36.808  INFO 8212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 13:00:36.993  INFO 8212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 13:00:37.124  INFO 8212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 13:00:37.544  INFO 8212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 13:00:37.561  INFO 8212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 13:00:38.640  INFO 8212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 13:00:38.646  INFO 8212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 13:00:39.156  WARN 8212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-16 13:00:39.499  INFO 8212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 13:00:40.255  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2021-07-16 13:00:40.433  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2223 (http)
+2021-07-16 13:00:40.435  INFO 8212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 13:00:40.435  INFO 8212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 13:00:40.472  INFO 8212 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-16 13:00:40.472  INFO 8212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 139 ms
+2021-07-16 13:00:40.494  INFO 8212 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-07-16 13:00:40.595  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2223 (http) with context path ''
+2021-07-16 13:00:40.700  INFO 8212 --- [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 7.766 seconds (JVM running for 8.291)
+2021-07-16 13:00:47.625  INFO 8212 --- [http-nio-4444-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 13:00:47.626  INFO 8212 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 13:00:47.629  INFO 8212 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-07-16 15:32:47.995  INFO 8212 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-16 15:32:47.998  INFO 8212 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 15:32:48.000  INFO 8212 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 15:32:48.003  INFO 8212 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 15:32:51.373  INFO 10672 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 10672 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 15:32:51.376  INFO 10672 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 15:32:52.550  INFO 10672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 15:32:52.634  INFO 10672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2021-07-16 15:32:52.827  INFO 10672 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 15:32:53.255  INFO 10672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 15:32:53.268  INFO 10672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 15:32:53.268  INFO 10672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 15:32:53.368  INFO 10672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 15:32:53.369  INFO 10672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1940 ms
+2021-07-16 15:32:53.643  INFO 10672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 15:32:53.683  INFO 10672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 15:32:53.807  INFO 10672 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 15:32:53.911  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 15:32:54.215  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 15:32:54.230  INFO 10672 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 15:32:54.905  INFO 10672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 15:32:54.912  INFO 10672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 15:32:54.933  WARN 10672 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'myController': Unsatisfied dependency expressed through field 'courseservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+2021-07-16 15:32:54.934  INFO 10672 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 15:32:54.937  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 15:32:54.943  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 15:32:54.946  INFO 10672 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-07-16 15:32:54.966  INFO 10672 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-16 15:32:54.984 ERROR 10672 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'myController': Unsatisfied dependency expressed through field 'courseservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at com.springrest.springrest.SpringrestApplication.main(SpringrestApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 32 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	Duplicate annotation of non-repeatable type @Override. Only annotation types marked @Repeatable can be used multiple times at one target.
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at com.springrest.springrest.services.CourseServiceImpl.<init>(CourseServiceImpl.java:61) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 34 common frames omitted
+
+2021-07-16 16:22:52.486  INFO 11588 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 11588 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 16:22:52.488  INFO 11588 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 16:22:53.412  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 16:22:53.473  INFO 11588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2021-07-16 16:22:53.666  INFO 11588 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 16:22:54.013  INFO 11588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 16:22:54.022  INFO 11588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 16:22:54.022  INFO 11588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 16:22:54.110  INFO 11588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 16:22:54.111  INFO 11588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1580 ms
+2021-07-16 16:22:54.340  INFO 11588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 16:22:54.371  INFO 11588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 16:22:54.450  INFO 11588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 16:22:54.523  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 16:22:54.808  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 16:22:54.818  INFO 11588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 16:22:55.377  INFO 11588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 16:22:55.383  INFO 11588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 16:22:55.400  WARN 11588 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'myController': Unsatisfied dependency expressed through field 'courseservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+2021-07-16 16:22:55.401  INFO 11588 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 16:22:55.403  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 16:22:55.407  INFO 11588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 16:22:55.409  INFO 11588 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-07-16 16:22:55.422  INFO 11588 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-16 16:22:55.433 ERROR 11588 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'myController': Unsatisfied dependency expressed through field 'courseservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at com.springrest.springrest.SpringrestApplication.main(SpringrestApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'courseServiceImpl' defined in file [/home/ubuntu/Downloads/springrest/target/classes/com/springrest/springrest/services/CourseServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.springrest.springrest.services.CourseServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 32 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getCoursePlatformName() is undefined for the type CoursePlatforms
+	The method getCoursePlatformRating() is undefined for the type CoursePlatforms
+
+	at com.springrest.springrest.services.CourseServiceImpl.<init>(CourseServiceImpl.java:194) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 34 common frames omitted
+
+2021-07-16 16:27:49.156  INFO 11827 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 11827 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 16:27:49.158  INFO 11827 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 16:27:50.292  INFO 11827 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 16:27:50.351  INFO 11827 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2021-07-16 16:27:50.585  INFO 11827 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 16:27:51.041  INFO 11827 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 16:27:51.064  INFO 11827 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 16:27:51.064  INFO 11827 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 16:27:51.187  INFO 11827 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 16:27:51.188  INFO 11827 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1972 ms
+2021-07-16 16:27:51.433  INFO 11827 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 16:27:51.470  INFO 11827 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 16:27:51.580  INFO 11827 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 16:27:51.657  INFO 11827 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 16:27:52.111  INFO 11827 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 16:27:52.128  INFO 11827 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 16:27:52.931  INFO 11827 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 16:27:52.940  INFO 11827 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 16:27:53.316  WARN 11827 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-16 16:27:53.551  INFO 11827 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 16:27:54.157  INFO 11827 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2021-07-16 16:27:54.414  INFO 11827 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2223 (http)
+2021-07-16 16:27:54.415  INFO 11827 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 16:27:54.416  INFO 11827 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 16:27:54.440  INFO 11827 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-16 16:27:54.440  INFO 11827 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2021-07-16 16:27:54.454  INFO 11827 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-07-16 16:27:54.499  INFO 11827 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2223 (http) with context path ''
+2021-07-16 16:27:54.656  INFO 11827 --- [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.124 seconds (JVM running for 6.63)
+2021-07-16 16:28:01.372  INFO 11827 --- [http-nio-4444-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 16:28:01.372  INFO 11827 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 16:28:01.374  INFO 11827 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-07-16 18:27:17.557  INFO 11827 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-16 18:27:17.560  INFO 11827 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 18:27:17.564  INFO 11827 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 18:27:17.567  INFO 11827 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-16 18:27:44.756  INFO 16626 --- [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 15.0.2 on ubuntu-Latitude-3400 with PID 16626 (/home/ubuntu/Downloads/springrest/target/classes started by ubuntu in /home/ubuntu/Downloads/springrest)
+2021-07-16 18:27:44.759  INFO 16626 --- [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to default profiles: default
+2021-07-16 18:27:46.301  INFO 16626 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-16 18:27:46.378  INFO 16626 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2021-07-16 18:27:46.662  INFO 16626 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c1ba963-12c2-3683-bd0b-dada90f25249
+2021-07-16 18:27:47.289  INFO 16626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2021-07-16 18:27:47.310  INFO 16626 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 18:27:47.311  INFO 16626 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 18:27:47.467  INFO 16626 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 18:27:47.467  INFO 16626 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2629 ms
+2021-07-16 18:27:47.859  INFO 16626 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-16 18:27:47.926  INFO 16626 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-07-16 18:27:48.135  INFO 16626 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-16 18:27:48.276  INFO 16626 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-16 18:27:48.788  INFO 16626 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-16 18:27:48.809  INFO 16626 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-07-16 18:27:49.706  INFO 16626 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-16 18:27:49.712  INFO 16626 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 18:27:50.197  WARN 16626 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-16 18:27:50.543  INFO 16626 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 18:27:51.373  INFO 16626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2021-07-16 18:27:51.578  INFO 16626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2223 (http)
+2021-07-16 18:27:51.579  INFO 16626 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 18:27:51.580  INFO 16626 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-07-16 18:27:51.609  INFO 16626 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-07-16 18:27:51.610  INFO 16626 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 150 ms
+2021-07-16 18:27:51.636  INFO 16626 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-07-16 18:27:51.723  INFO 16626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2223 (http) with context path ''
+2021-07-16 18:27:51.804  INFO 16626 --- [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 7.58 seconds (JVM running for 8.05)
+2021-07-16 18:28:23.387  INFO 16626 --- [http-nio-4444-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-16 18:28:23.388  INFO 16626 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-16 18:28:23.392  INFO 16626 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-07-16 20:45:10.714  INFO 16626 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-16 20:45:10.717  INFO 16626 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-16 20:45:10.727  INFO 16626 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-16 20:45:10.733  INFO 16626 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
